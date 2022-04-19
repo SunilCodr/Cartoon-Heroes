@@ -3,11 +3,13 @@ body {
 	font-family: 'Helvetica', 'Arial','sans-serif';
 	font-size: 30px;
 }
+/*Header */
 header {background-color: #d14635;
 text-align: center;
 padding-top: 50px;
 padding-bottom: 50px;}
 h1, h2 {font-family: 'press start 2P',cursive;}
+h1 {padding-top: 30px;}
 
 header h1 {color: white;
 font-family: 'press start 2P',cursive;
@@ -22,8 +24,8 @@ margin: 40px 0 10px;}
 a {color: red;}
 a:hover{color: white;
 		background-color: purple;}
-
-main {max-width: 800px;
+/*Main */
+main {max-width:  800px;
 	margin: 0 auto;
 	padding:20px;
 }
@@ -31,10 +33,12 @@ main img{max-width: 100%;}
 footer{background-color: #d14635;
 text-align: center;
 color: white;
-padding: 50px;}
-footer a{color: green;}
-footer a:hover{opacity: .5
-		background-color: transparent;}
+padding: 1px;
+}
+
+footer a{color: yellow;}
+footer a:hover{opacity: .5;
+		background-color: green;}
 p.caption {color: green;
 font-style: italic;
 margin-top: 0;
